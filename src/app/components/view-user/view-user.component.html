@@ -1,0 +1,11 @@
+<div class="card-image">
+    <img [src]="data.profileImage" style="height: 300px;width: 300px;">
+</div>
+<div fxLayout="column" class="content">
+    <textarea class="note-title-area" spellcheck="false" placeholder="first name" matTextareaAutosize [formControl]="firstName"></textarea>
+    <textarea class="note-title-area" spellcheck="false" placeholder="last name" matTextareaAutosize [formControl]="lastName"></textarea>
+    <textarea class="note-title-area" spellcheck="false" placeholder="Email" matTextareaAutosize [formControl]="email"></textarea>
+    <textarea class="note-title-area" spellcheck="false" placeholder="Phone NUmber" matTextareaAutosize [formControl]="phoneNumber"></textarea>
+    <button mat-button color="primary" mat-dialog-close (click)="save()">Save</button>
+
+</div>

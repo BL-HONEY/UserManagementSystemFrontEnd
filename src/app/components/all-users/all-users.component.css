@@ -1,0 +1,21 @@
+.card-content {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.allUsers {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui;
+    margin-bottom: 10px;
+}

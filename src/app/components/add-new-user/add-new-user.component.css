@@ -1,0 +1,66 @@
+
+.signUpButton{
+    color: blue
+}
+
+.register-header{
+    margin-top:15%;
+}
+
+.form1{
+    margin-top: 2%
+}
+
+.fundoo-img{
+   height:200px 
+}
+
+:host /deep/ .mat-error{
+    color :#d50000;
+    font: 12px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 540
+}
+
+:host /deep/ .mat-form-field-invalid .mat-input-element, .mat-warn .mat-input-element {
+    caret-color: black;
+}
+
+
+.img{
+    display:flex;
+    flex-direction: row;
+}
+
+.btn-next{
+    display: block;
+    font-family: 'Google Sans',arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .25px;
+    background: #1068f5;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 40px;
+}
+
+.btn-signIn{
+    color: #1068f5;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Google Sans',arial,sans-serif;
+    font-weight: 550;
+    letter-spacing: .25px;
+    line-height: 36px;
+    padding: 6px 0;
+    position: relative;
+}
+
+.tag-line{
+    color: #202124;
+    font-family: roboto,arial,sans-serif;
+    direction: ltr;
+    line-height: 1.4286;
+    font-size: 16px;
+}

@@ -1,0 +1,16 @@
+<div class="allUsers">All Users</div>
+<button mat-button color="primary" (click)="navigate()">Add New User</button>
+
+<div fxLayout="row wrap">
+    <mat-card fxLayout="row" fxLayoutAlign="space-betweem center" fxFlex.xs="100" *ngFor="let user of allUsers" class="card-content">
+        <div (click)="editUser(user)">
+            <img [src]="user?.profileImage" alt="image" style="height: 200px;width: 200px;">
+        </div>
+        <div fxLayout="column">
+            <span class="text">Name:  {{user?.firstName}} {{user?.lastName}} </span>
+            <label class="text">Email: {{user?.email}}</label>
+            <span class="text">Contact: {{user?.phoneNumber}}</span>
+            <button mat-fab color="warn" (click)="removeUser(user)">Delete</button>
+        </div>
+    </mat-card>
+</div>
